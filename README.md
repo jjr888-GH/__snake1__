@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Neon Snake Arcade
 
-# Run and deploy your AI Studio app
+A high-performance Snake game with a sleek neon aesthetic and fluid controls, built with React, TypeScript, and Vite.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/9eddd2c6-4b38-4c1f-8061-9e0118134540
+- Modern Neon UI design
+- Smooth gameplay
+- Responsive controls
+- Built with React 19 and Vite
 
-## Run Locally
+## Prerequisites
 
-**Prerequisites:**  Node.js
+- Node.js 16+
+- npm or yarn
 
+## Installation
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+The game will be available at `http://localhost:3000`
+
+## Build
+
+To build for production:
+
+```bash
+npm run build
+```
